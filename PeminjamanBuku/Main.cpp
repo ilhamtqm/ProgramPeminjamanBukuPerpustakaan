@@ -6,6 +6,7 @@
 #include "halamanDepan.h"
 using namespace std;
 int main() {
+	
 	/*ifstream myFile;
 	string data;
 	string id;
@@ -23,8 +24,9 @@ int main() {
 		"salah ID";
 	}*/
 
-
+	halamanDepan();
 	peminjamanBuku();
+	cout << endl;
 	function();
 	//loginAuth();
 	/*halamanDepan();*/

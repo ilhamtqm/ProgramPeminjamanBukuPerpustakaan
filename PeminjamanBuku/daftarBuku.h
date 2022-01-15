@@ -137,7 +137,63 @@ void peminjamanBuku() {
 		//pojok kanan bawah
 		cout << char(180);
 	}
-	
+	void B002(); {
+		//buku B002
+		//nomer
+		cout << "\n";
+		cout << char(179);
+		cout << "2 " << char(179);
+		//nama buku
+		string B002 = "English for Beginning";
+		int B002Size = B002.size();
+		int judulBukuSize = 45;
+		cout << B002;
+		for (int i = 0; i < judulBukuSize - B002Size; ++i)
+			cout << ' ';
+		cout << char(179);
+		//kode buku
+		string kodeB002 = "B002";
+		int kodeSizeB002 = kodeB002.size();
+		int lengthA001 = 12;
+		cout << kodeB002;
+		for (int i = 0; i < lengthA001 - kodeSizeB002; ++i)
+			cout << ' ';
+		cout << char(179);
+		//lama peminjaman
+		string lamaPB002 = "7 hari";
+		int lamaPSizeB002 = lamaPB002.size();
+		int lengthlamaPB002 = 18;
+		cout << lamaPB002;
+		for (int i = 0; i < lengthlamaPB002 - lamaPSizeB002; ++i)
+			cout << ' ';
+		cout << char(179);
+		cout << "\n";
+		//-----------//
+
+		//border bawah
+		//pojok kiri bawah
+		cout << char(195);
+		//horizontal bawah1
+		for (int i = 0; i < 2; ++i)
+			cout << char(196);
+		//pojok cross section1
+		cout << char(197);
+		//horizontal bawah2
+		for (int i = 0; i < B002Size + (judulBukuSize - B002Size); ++i)
+			cout << char(196);
+		//pojok cross section2
+		cout << char(197);
+		//horizontal bawah3
+		for (int i = 0; i < 12; ++i)
+			cout << char(196);
+		//pojok cross section3
+		cout << char(197);
+		//horizontal bawah4
+		for (int i = 0; i < 18; ++i)
+			cout << char(196);
+		//pojok kanan bawah
+		cout << char(180);
+	}
 	
 	////pojok kiri atas
 	//cout << char(218);
