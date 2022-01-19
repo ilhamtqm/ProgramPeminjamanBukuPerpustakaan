@@ -15,15 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="daftarBuku.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="halamanDepan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="function.h">
